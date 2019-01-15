@@ -25,6 +25,7 @@ int main()
             qian += cun;
 
             printf("存入成功，点击回车继续\n");
+
             char x;
             scanf("%c", &x);
             scanf("%c", &x);
@@ -52,10 +53,17 @@ int main()
             }
         }
         if (a == 3)
+
         {
+            printf("您的余额为：%d\n", qian);
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if (a == 4)
         {
+            printf("程序退出\n");
+            break;
         }
     }
     return 0;
