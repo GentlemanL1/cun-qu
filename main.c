@@ -31,12 +31,30 @@ int main()
         }
         if (a == 2)
         {
-            
+            int qu;
+            printf("请输入要取出的金额：\n");
+            scanf("%d", &qu);
+            if (qu > qian)
+            {
+                printf("余额不足，取出失败，点击回车继续\n");
+                char x;
+                scanf("%c", &x);
+                scanf("%c", &x);
+            }
+            else
+            {
+                qian -= qu;
+
+                printf("取钱成功，点击回车继续\n");
+                char x;
+                scanf("%c", &x);
+                scanf("%c", &x);
+            }
         }
-        if (a == 4)
+        if (a == 3)
         {
         }
-        if (a == 5)
+        if (a == 4)
         {
         }
     }
