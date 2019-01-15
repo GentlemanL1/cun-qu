@@ -2,7 +2,7 @@
 
 int main()
 {
-
+    int qian = 0;
     printf("进入存钱取钱管理系统\n");
     while (1)
     {
@@ -14,19 +14,30 @@ int main()
         printf("4---退出\n");
 
         printf("请输入功能编号\n");
-        scanf("%d",&a);
-    
-        if(a==1){
+        scanf("%d", &a);
 
-        }
-        if(a==2){
+        if (a == 1)
+        {
+            int cun;
+            printf("请输入要存入的金额:\n");
 
-        }
-        if(a==4){
+            scanf("%d", &cun);
+            qian += cun;
 
+            printf("存入成功，点击回车继续\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
-        if(a==5){
+        if (a == 2)
+        {
             
+        }
+        if (a == 4)
+        {
+        }
+        if (a == 5)
+        {
         }
     }
     return 0;
